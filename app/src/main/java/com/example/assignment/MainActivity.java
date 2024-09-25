@@ -1,5 +1,6 @@
 package com.example.assignment;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -28,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         button.setOnClickListener(v -> {
+            Intent intent=new Intent(MainActivity.this,button.class);
+            startActivity(intent);
             Toast.makeText(this, "Sign In is Clicked", Toast.LENGTH_SHORT).show();
         });
         button2.setOnClickListener(v->{
