@@ -34,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Sign In is Clicked", Toast.LENGTH_SHORT).show();
         });
         button2.setOnClickListener(v->{
+            Intent intent=new Intent(MainActivity.this,loginActivity.class);
+            startActivity(intent);
             Toast.makeText(this, "Sign Up is Clicked", Toast.LENGTH_SHORT).show();
         });
     }

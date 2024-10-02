@@ -132,7 +132,4 @@ public class button extends AppCompatActivity {
             arr.remove(buttonView.getText().toString());
         }
     }
-
-
-
 }
