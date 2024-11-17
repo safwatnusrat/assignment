@@ -13,6 +13,18 @@
         android:theme="@style/Theme.Assignment"
         tools:targetApi="31">
         <activity
+            android:name=".expandablelistview"
+            android:exported="false" />
+        <activity
+            android:name=".customlistview"
+            android:exported="false" />
+        <activity
+            android:name=".practice"
+            android:exported="false" />
+        <activity
+            android:name=".labtest"
+            android:exported="false" />
+        <activity
             android:name=".loginActivity"
             android:exported="false" />
         <activity

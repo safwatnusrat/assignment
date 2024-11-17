@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">assignment</string>
+    <string-array name="food">
+        <item>Margherita Pizza</item>
+        <item>Pepperoni Pizza</item>
+        <item>BBQ Chicken Pizza</item>
+        <item>Veggie Supreme Pizza</item>
+        <item>Hawaiian Pizza</item>
+        <item>Cheeseburger</item>
+        <item>Bacon Burger</item>
+        <item>Double Patty Burger</item>
+        <item>Mushroom Swiss Burger</item>
+        <item>Spicy Chicken Burger</item>
+    </string-array>
+
+    <string-array name="food_details">
+        <item>Margherita Pizza: A classic pizza with a simple tomato sauce, fresh mozzarella, and basil.</item>
+        <item>Pepperoni Pizza: A delicious pizza topped with spicy pepperoni slices, cheese, and tomato sauce.</item>
+        <item>BBQ Chicken Pizza: Grilled chicken with BBQ sauce, red onions, and a blend of cheeses.</item>
+        <item>Veggie Supreme Pizza: A healthy pizza with a variety of fresh vegetables like bell peppers, onions, and olives.</item>
+        <item>Hawaiian Pizza: A pizza topped with sweet pineapple and savory ham.</item>
+        <item>Cheeseburger: A burger with a juicy beef patty, melted cheddar cheese, lettuce, tomato, and pickles.</item>
+        <item>Bacon Burger: A burger topped with crispy bacon, cheese, lettuce, tomato, and pickles.</item>
+        <item>Double Patty Burger: A hearty burger with two beef patties, cheese, lettuce, tomato, and pickles.</item>
+        <item>Mushroom Swiss Burger: A savory burger with sautéed mushrooms, Swiss cheese, lettuce, and tomato.</item>
+        <item>Spicy Chicken Burger: A spicy chicken patty with jalapeños, lettuce, tomato, and spicy mayo.</item>
+    </string-array>
+
 </resources>

@@ -26,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.imageView);
         Button button = findViewById(R.id.signinbutton);
         Button button2=findViewById(R.id.signupbutton);
+        Button button3=findViewById(R.id.customlistview);
+        Button button4=findViewById(R.id.DetailedList);
 
 
         button.setOnClickListener(v -> {
@@ -37,6 +39,16 @@ public class MainActivity extends AppCompatActivity {
             Intent intent=new Intent(MainActivity.this,loginActivity.class);
             startActivity(intent);
             Toast.makeText(this, "Sign Up is Clicked", Toast.LENGTH_SHORT).show();
+        });
+        button3.setOnClickListener(v->{
+            Intent intent=new Intent(MainActivity.this,customlistview.class);
+            startActivity(intent);
+            Toast.makeText(this, "List button in clicked", Toast.LENGTH_SHORT).show();
+        });
+        button4.setOnClickListener(v->{
+            Intent intent=new Intent(MainActivity.this,expandablelistview.class);
+            startActivity(intent);
+            Toast.makeText(this, "DetailedList button in clicked", Toast.LENGTH_SHORT).show();
         });
     }
 }
