@@ -27,5 +27,7 @@ public class customlistview extends AppCompatActivity {
         food=getResources().getStringArray(R.array.food);
         customAdapter adapter= new customAdapter(this,food,images);
         listView.setAdapter((ListAdapter) adapter);
+
+
     }
 }
